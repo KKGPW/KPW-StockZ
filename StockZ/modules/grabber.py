@@ -8,7 +8,7 @@ class Stock:
         pass
 
     def grab(self):
-        self.__stock_data = yfinance.download(tickers='UBER', period='1d', interval='1m')
+        self.__stock_data = yfinance.download(tickers='BASFY', period='1d', interval='1m')
 
     def to_console(self):
         print(self.__stock_data)
